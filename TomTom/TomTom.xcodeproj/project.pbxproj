@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C48C5E9521B99DB300A6B34F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5E9421B99DB300A6B34F /* AppDelegate.m */; };
+		C48C5E9821B99DB300A6B34F /* PostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5E9721B99DB300A6B34F /* PostsViewController.m */; };
+		C48C5E9B21B99DB300A6B34F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48C5E9921B99DB300A6B34F /* Main.storyboard */; };
+		C48C5E9E21B99DB300A6B34F /* TomTom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C48C5E9C21B99DB300A6B34F /* TomTom.xcdatamodeld */; };
+		C48C5EA021B99DB400A6B34F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48C5E9F21B99DB400A6B34F /* Assets.xcassets */; };
+		C48C5EA321B99DB400A6B34F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48C5EA121B99DB400A6B34F /* LaunchScreen.storyboard */; };
+		C48C5EA621B99DB400A6B34F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EA521B99DB400A6B34F /* main.m */; };
+		C48C5EB021B99DB400A6B34F /* TomTomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EAF21B99DB400A6B34F /* TomTomTests.m */; };
+		C48C5EC621B9A0F200A6B34F /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EC521B9A0F200A6B34F /* PostViewController.m */; };
+		C48C5ECC21B9A16400A6B34F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EC821B9A16400A6B34F /* Reachability.m */; };
+		C48C5ECD21B9A16400A6B34F /* RESTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EC921B9A16400A6B34F /* RESTManager.m */; };
+		C48C5ED521B9A1C500A6B34F /* NSObject+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5ED021B9A1C500A6B34F /* NSObject+Utilities.m */; };
+		C48C5ED721B9A1C500A6B34F /* UIViewController+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5ED221B9A1C500A6B34F /* UIViewController+Utilities.m */; };
+		C48C5EDA21B9A21600A6B34F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48C5ED921B9A21600A6B34F /* SystemConfiguration.framework */; };
+		C48C5EDD21B9A2A400A6B34F /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EDC21B9A2A400A6B34F /* PostTableViewCell.m */; };
+		C48C5EE021B9A2D500A6B34F /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EDF21B9A2D500A6B34F /* Post.m */; };
+		C48C5EE421BA6A2100A6B34F /* DataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EE321BA6A2100A6B34F /* DataFetcher.m */; };
+		C48C5EE721BA6B0800A6B34F /* NetworkFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EE621BA6B0800A6B34F /* NetworkFetcher.m */; };
+		C48C5EEA21BA6BC700A6B34F /* DatabaseFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EE921BA6BC700A6B34F /* DatabaseFetcher.m */; };
+		C48C5EEC21BA6C9700A6B34F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48C5EEB21BA6C9700A6B34F /* CoreData.framework */; };
+		C48C5EF921BA894A00A6B34F /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EF821BA894A00A6B34F /* DataManager.m */; };
+		C48C5EFC21BA9E6400A6B34F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EFB21BA9E6400A6B34F /* User.m */; };
+		C48C5EFD21BAAB6B00A6B34F /* NetworkFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EE621BA6B0800A6B34F /* NetworkFetcher.m */; };
+		C48C5F0021BAAD1400A6B34F /* TomTom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C48C5E9C21B99DB300A6B34F /* TomTom.xcdatamodeld */; };
+		C48C5F0121BAAD1900A6B34F /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EDF21B9A2D500A6B34F /* Post.m */; };
+		C48C5F0221BAAD1C00A6B34F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EFB21BA9E6400A6B34F /* User.m */; };
+		C48C5F0521BAB44200A6B34F /* JSONNullChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5F0421BAB44200A6B34F /* JSONNullChecker.m */; };
+		C48C5F0621BAB81D00A6B34F /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C5EF821BA894A00A6B34F /* DataManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C48C5EAC21B99DB400A6B34F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48C5E8821B99DB300A6B34F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C48C5E8F21B99DB300A6B34F;
+			remoteInfo = TomTom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C48C5E9021B99DB300A6B34F /* TomTom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomTom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48C5E9321B99DB300A6B34F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C48C5E9421B99DB300A6B34F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C48C5E9621B99DB300A6B34F /* PostsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostsViewController.h; sourceTree = "<group>"; };
+		C48C5E9721B99DB300A6B34F /* PostsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostsViewController.m; sourceTree = "<group>"; };
+		C48C5E9D21B99DB300A6B34F /* TomTom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TomTom.xcdatamodel; sourceTree = "<group>"; };
+		C48C5E9F21B99DB400A6B34F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C48C5EA421B99DB400A6B34F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48C5EA521B99DB400A6B34F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C48C5EAB21B99DB400A6B34F /* TomTomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomTomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48C5EAF21B99DB400A6B34F /* TomTomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TomTomTests.m; sourceTree = "<group>"; };
+		C48C5EB121B99DB400A6B34F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48C5EBC21B99E9500A6B34F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C48C5EBD21B99E9600A6B34F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C48C5EC421B9A0F200A6B34F /* PostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		C48C5EC521B9A0F200A6B34F /* PostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		C48C5EC821B9A16400A6B34F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C48C5EC921B9A16400A6B34F /* RESTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESTManager.m; sourceTree = "<group>"; };
+		C48C5ECA21B9A16400A6B34F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C48C5ECB21B9A16400A6B34F /* RESTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTManager.h; sourceTree = "<group>"; };
+		C48C5ECF21B9A1C500A6B34F /* UIViewController+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utilities.h"; sourceTree = "<group>"; };
+		C48C5ED021B9A1C500A6B34F /* NSObject+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Utilities.m"; sourceTree = "<group>"; };
+		C48C5ED221B9A1C500A6B34F /* UIViewController+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utilities.m"; sourceTree = "<group>"; };
+		C48C5ED421B9A1C500A6B34F /* NSObject+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utilities.h"; sourceTree = "<group>"; };
+		C48C5ED921B9A21600A6B34F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C48C5EDB21B9A2A400A6B34F /* PostTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		C48C5EDC21B9A2A400A6B34F /* PostTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
+		C48C5EDE21B9A2D500A6B34F /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		C48C5EDF21B9A2D500A6B34F /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		C48C5EE121B9A58F00A6B34F /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C48C5EE221BA6A2100A6B34F /* DataFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataFetcher.h; sourceTree = "<group>"; };
+		C48C5EE321BA6A2100A6B34F /* DataFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataFetcher.m; sourceTree = "<group>"; };
+		C48C5EE521BA6B0800A6B34F /* NetworkFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkFetcher.h; sourceTree = "<group>"; };
+		C48C5EE621BA6B0800A6B34F /* NetworkFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkFetcher.m; sourceTree = "<group>"; };
+		C48C5EE821BA6BC700A6B34F /* DatabaseFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseFetcher.h; sourceTree = "<group>"; };
+		C48C5EE921BA6BC700A6B34F /* DatabaseFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseFetcher.m; sourceTree = "<group>"; };
+		C48C5EEB21BA6C9700A6B34F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C48C5EF721BA894A00A6B34F /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		C48C5EF821BA894A00A6B34F /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		C48C5EFA21BA9E6400A6B34F /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		C48C5EFB21BA9E6400A6B34F /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		C48C5F0321BAB44200A6B34F /* JSONNullChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONNullChecker.h; sourceTree = "<group>"; };
+		C48C5F0421BAB44200A6B34F /* JSONNullChecker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONNullChecker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C48C5E8D21B99DB300A6B34F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48C5EEC21BA6C9700A6B34F /* CoreData.framework in Frameworks */,
+				C48C5EDA21B9A21600A6B34F /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48C5EA821B99DB400A6B34F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C48C5E8721B99DB300A6B34F = {
+			isa = PBXGroup;
+			children = (
+				C48C5E9221B99DB300A6B34F /* TomTom */,
+				C48C5EAE21B99DB400A6B34F /* TomTomTests */,
+				C48C5ED821B9A21500A6B34F /* Frameworks */,
+				C48C5E9121B99DB300A6B34F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C48C5E9121B99DB300A6B34F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C48C5E9021B99DB300A6B34F /* TomTom.app */,
+				C48C5EAB21B99DB400A6B34F /* TomTomTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48C5E9221B99DB300A6B34F /* TomTom */ = {
+			isa = PBXGroup;
+			children = (
+				C48C5EBF21B99EA200A6B34F /* Storyboards */,
+				C48C5EC721B9A16400A6B34F /* Utilities */,
+				C48C5EC221B99F2A00A6B34F /* Models */,
+				C48C5EC121B99F1500A6B34F /* View Controllers */,
+				C48C5EBB21B99E6500A6B34F /* Supporting Files */,
+			);
+			path = TomTom;
+			sourceTree = "<group>";
+		};
+		C48C5EAE21B99DB400A6B34F /* TomTomTests */ = {
+			isa = PBXGroup;
+			children = (
+				C48C5EAF21B99DB400A6B34F /* TomTomTests.m */,
+				C48C5EB121B99DB400A6B34F /* Info.plist */,
+			);
+			path = TomTomTests;
+			sourceTree = "<group>";
+		};
+		C48C5EBA21B99E3600A6B34F /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C48C5E9321B99DB300A6B34F /* AppDelegate.h */,
+				C48C5E9421B99DB300A6B34F /* AppDelegate.m */,
+			);
+			path = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		C48C5EBB21B99E6500A6B34F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48C5EBA21B99E3600A6B34F /* Application Delegate */,
+				C48C5E9F21B99DB400A6B34F /* Assets.xcassets */,
+				C48C5EA521B99DB400A6B34F /* main.m */,
+				C48C5EA421B99DB400A6B34F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C48C5EBF21B99EA200A6B34F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C48C5EA121B99DB400A6B34F /* LaunchScreen.storyboard */,
+				C48C5E9921B99DB300A6B34F /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C48C5EC021B99F0400A6B34F /* PostsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C48C5E9621B99DB300A6B34F /* PostsViewController.h */,
+				C48C5E9721B99DB300A6B34F /* PostsViewController.m */,
+				C48C5EDB21B9A2A400A6B34F /* PostTableViewCell.h */,
+				C48C5EDC21B9A2A400A6B34F /* PostTableViewCell.m */,
+			);
+			path = PostsViewController;
+			sourceTree = "<group>";
+		};
+		C48C5EC121B99F1500A6B34F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C48C5EC021B99F0400A6B34F /* PostsViewController */,
+				C48C5EC321B9A0DF00A6B34F /* PostViewController */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C48C5EC221B99F2A00A6B34F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C48C5E9C21B99DB300A6B34F /* TomTom.xcdatamodeld */,
+				C48C5EDE21B9A2D500A6B34F /* Post.h */,
+				C48C5EDF21B9A2D500A6B34F /* Post.m */,
+				C48C5EFA21BA9E6400A6B34F /* User.h */,
+				C48C5EFB21BA9E6400A6B34F /* User.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C48C5EC321B9A0DF00A6B34F /* PostViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C48C5EC421B9A0F200A6B34F /* PostViewController.h */,
+				C48C5EC521B9A0F200A6B34F /* PostViewController.m */,
+			);
+			path = PostViewController;
+			sourceTree = "<group>";
+		};
+		C48C5EC721B9A16400A6B34F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C48C5EF621BA704000A6B34F /* Repository */,
+				C48C5ECE21B9A1C500A6B34F /* Categories */,
+				C48C5ECA21B9A16400A6B34F /* Reachability.h */,
+				C48C5EC821B9A16400A6B34F /* Reachability.m */,
+				C48C5ECB21B9A16400A6B34F /* RESTManager.h */,
+				C48C5EC921B9A16400A6B34F /* RESTManager.m */,
+				C48C5F0321BAB44200A6B34F /* JSONNullChecker.h */,
+				C48C5F0421BAB44200A6B34F /* JSONNullChecker.m */,
+				C48C5EE121B9A58F00A6B34F /* Constants.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C48C5ECE21B9A1C500A6B34F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C48C5ECF21B9A1C500A6B34F /* UIViewController+Utilities.h */,
+				C48C5ED221B9A1C500A6B34F /* UIViewController+Utilities.m */,
+				C48C5ED421B9A1C500A6B34F /* NSObject+Utilities.h */,
+				C48C5ED021B9A1C500A6B34F /* NSObject+Utilities.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		C48C5ED821B9A21500A6B34F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C48C5EEB21BA6C9700A6B34F /* CoreData.framework */,
+				C48C5ED921B9A21600A6B34F /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C48C5EF621BA704000A6B34F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				C48C5EF721BA894A00A6B34F /* DataManager.h */,
+				C48C5EF821BA894A00A6B34F /* DataManager.m */,
+				C48C5EE221BA6A2100A6B34F /* DataFetcher.h */,
+				C48C5EE321BA6A2100A6B34F /* DataFetcher.m */,
+				C48C5EE521BA6B0800A6B34F /* NetworkFetcher.h */,
+				C48C5EE621BA6B0800A6B34F /* NetworkFetcher.m */,
+				C48C5EE821BA6BC700A6B34F /* DatabaseFetcher.h */,
+				C48C5EE921BA6BC700A6B34F /* DatabaseFetcher.m */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C48C5E8F21B99DB300A6B34F /* TomTom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48C5EB421B99DB400A6B34F /* Build configuration list for PBXNativeTarget "TomTom" */;
+			buildPhases = (
+				C48C5E8C21B99DB300A6B34F /* Sources */,
+				C48C5E8D21B99DB300A6B34F /* Frameworks */,
+				C48C5E8E21B99DB300A6B34F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TomTom;
+			productName = TomTom;
+			productReference = C48C5E9021B99DB300A6B34F /* TomTom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C48C5EAA21B99DB400A6B34F /* TomTomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48C5EB721B99DB400A6B34F /* Build configuration list for PBXNativeTarget "TomTomTests" */;
+			buildPhases = (
+				C48C5EA721B99DB400A6B34F /* Sources */,
+				C48C5EA821B99DB400A6B34F /* Frameworks */,
+				C48C5EA921B99DB400A6B34F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C48C5EAD21B99DB400A6B34F /* PBXTargetDependency */,
+			);
+			name = TomTomTests;
+			productName = TomTomTests;
+			productReference = C48C5EAB21B99DB400A6B34F /* TomTomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C48C5E8821B99DB300A6B34F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Djuro Alfirevic";
+				TargetAttributes = {
+					C48C5E8F21B99DB300A6B34F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C48C5EAA21B99DB400A6B34F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C48C5E8F21B99DB300A6B34F;
+					};
+				};
+			};
+			buildConfigurationList = C48C5E8B21B99DB300A6B34F /* Build configuration list for PBXProject "TomTom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C48C5E8721B99DB300A6B34F;
+			productRefGroup = C48C5E9121B99DB300A6B34F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C48C5E8F21B99DB300A6B34F /* TomTom */,
+				C48C5EAA21B99DB400A6B34F /* TomTomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C48C5E8E21B99DB300A6B34F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48C5EA321B99DB400A6B34F /* LaunchScreen.storyboard in Resources */,
+				C48C5EA021B99DB400A6B34F /* Assets.xcassets in Resources */,
+				C48C5E9B21B99DB300A6B34F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48C5EA921B99DB400A6B34F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C48C5E8C21B99DB300A6B34F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48C5E9821B99DB300A6B34F /* PostsViewController.m in Sources */,
+				C48C5EE721BA6B0800A6B34F /* NetworkFetcher.m in Sources */,
+				C48C5E9E21B99DB300A6B34F /* TomTom.xcdatamodeld in Sources */,
+				C48C5EFC21BA9E6400A6B34F /* User.m in Sources */,
+				C48C5EE421BA6A2100A6B34F /* DataFetcher.m in Sources */,
+				C48C5EEA21BA6BC700A6B34F /* DatabaseFetcher.m in Sources */,
+				C48C5ECD21B9A16400A6B34F /* RESTManager.m in Sources */,
+				C48C5EA621B99DB400A6B34F /* main.m in Sources */,
+				C48C5E9521B99DB300A6B34F /* AppDelegate.m in Sources */,
+				C48C5ECC21B9A16400A6B34F /* Reachability.m in Sources */,
+				C48C5EE021B9A2D500A6B34F /* Post.m in Sources */,
+				C48C5F0521BAB44200A6B34F /* JSONNullChecker.m in Sources */,
+				C48C5ED521B9A1C500A6B34F /* NSObject+Utilities.m in Sources */,
+				C48C5EC621B9A0F200A6B34F /* PostViewController.m in Sources */,
+				C48C5EF921BA894A00A6B34F /* DataManager.m in Sources */,
+				C48C5EDD21B9A2A400A6B34F /* PostTableViewCell.m in Sources */,
+				C48C5ED721B9A1C500A6B34F /* UIViewController+Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48C5EA721B99DB400A6B34F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48C5F0221BAAD1C00A6B34F /* User.m in Sources */,
+				C48C5F0621BAB81D00A6B34F /* DataManager.m in Sources */,
+				C48C5EFD21BAAB6B00A6B34F /* NetworkFetcher.m in Sources */,
+				C48C5F0021BAAD1400A6B34F /* TomTom.xcdatamodeld in Sources */,
+				C48C5EB021B99DB400A6B34F /* TomTomTests.m in Sources */,
+				C48C5F0121BAAD1900A6B34F /* Post.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C48C5EAD21B99DB400A6B34F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C48C5E8F21B99DB300A6B34F /* TomTom */;
+			targetProxy = C48C5EAC21B99DB400A6B34F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C48C5E9921B99DB300A6B34F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48C5EBD21B99E9600A6B34F /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C48C5EA121B99DB400A6B34F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48C5EBC21B99E9500A6B34F /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C48C5EB221B99DB400A6B34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C48C5EB321B99DB400A6B34F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C48C5EB521B99DB400A6B34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TomTom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtom.challenge.TomTom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C48C5EB621B99DB400A6B34F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TomTom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtom.challenge.TomTom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C48C5EB821B99DB400A6B34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TomTomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtom.challenge.TomTomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TomTom.app/TomTom";
+			};
+			name = Debug;
+		};
+		C48C5EB921B99DB400A6B34F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TomTomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtom.challenge.TomTomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TomTom.app/TomTom";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C48C5E8B21B99DB300A6B34F /* Build configuration list for PBXProject "TomTom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48C5EB221B99DB400A6B34F /* Debug */,
+				C48C5EB321B99DB400A6B34F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48C5EB421B99DB400A6B34F /* Build configuration list for PBXNativeTarget "TomTom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48C5EB521B99DB400A6B34F /* Debug */,
+				C48C5EB621B99DB400A6B34F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48C5EB721B99DB400A6B34F /* Build configuration list for PBXNativeTarget "TomTomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48C5EB821B99DB400A6B34F /* Debug */,
+				C48C5EB921B99DB400A6B34F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C48C5E9C21B99DB300A6B34F /* TomTom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C48C5E9D21B99DB300A6B34F /* TomTom.xcdatamodel */,
+			);
+			currentVersion = C48C5E9D21B99DB300A6B34F /* TomTom.xcdatamodel */;
+			path = TomTom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C48C5E8821B99DB300A6B34F /* Project object */;
+}
